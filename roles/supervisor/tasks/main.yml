@@ -1,0 +1,22 @@
+---
+- name: installing supervisor
+  pip:
+    name:supervisor
+    state:latest
+
+- name: create supervisor config directory
+  shell: mkdir -p /etc/supervisor/conf.d
+
+- name: apply supervisor template.
+  template: 
+    src:supervisor.conf.jj2
+    dest:/etc/supervisor/supervisor.conf
+    owner:root
+    group:root
+    mode:0600
+
+- name: make supervisord up and running
+  service:
+    name:supervisord
+    state:started
+    enabled:yes

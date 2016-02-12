@@ -1,0 +1,7 @@
+#sample only, please provide your server's address
+[webservers]
+#web.production.com
+
+
+[dbservers]
+#db.production.com

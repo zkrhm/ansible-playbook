@@ -1,0 +1,45 @@
+---
+- laravel_sites
+  - {	name: "belajar",
+  		repo:"git@gitlab.com/ivorycoconut/belajar",
+  		docroot:"/var/www/belajar",
+      domain: "belajar.setengahmateng.com"
+  	}
+  - {	name: "prescriptor",
+  		repo:"git@gitlab.com/ivorycoconut/prescriptor",
+  		docroot:"/var/www/prescriptor",
+      domain: "prescriptor.setengahmateng.com"
+  	}
+  - {	name: "eapotek",
+  		repo:"git@gitlab.com/ivorycoconut/eapotek",
+  		docroot:"/var/www/eapotek",
+      domain: "eapotek.setengahmateng.com"
+  	}
+  - {	name: "ecommerce",
+  		repo:"git@gitlab.com/ivorycoconut/ecommerce",
+  		docroot:"/var/www/ecommerce"
+      domain: "ecommerce.setengahmateng.com"
+  	}
+- html_sites
+  - {name: "", repo:"", docroot:""}
+
+- nodejs_sites
+  - {
+  	  name:"pulsapay",
+  	  nginx:yes,
+      supervised:yes,
+      domain: "pulsapay.setengahmateng.com"
+  	  repo:"git@gitlab.com/ivorycoconut/pulsapay"
+  	}
+  - {
+      name:"operator",
+      nginx:yes,
+      supervised:yes,
+      domain: "operator.setengahmateng.com"
+      repo:"git@gitlab.com/ivorycoconut/operator"}
+  - {
+      name:"ws.prescriptor",
+      nginx:true,
+      supervised:yes,
+      domain: "ws.prescriptor.setengahmateng.com"
+    }

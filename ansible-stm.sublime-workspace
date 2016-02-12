@@ -1,0 +1,1524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"supervi",
+				"supervisord"
+			],
+			[
+				"els",
+				"elasticsearch"
+			],
+			[
+				"elastic",
+				"elasticsearch"
+			],
+			[
+				"elast",
+				"elasticsearch"
+			],
+			[
+				"super",
+				"supervisor"
+			],
+			[
+				"notif",
+				"notifFinanceGuys〔function〕"
+			],
+			[
+				"orderM",
+				"$orderMdl〔variable〕"
+			],
+			[
+				"P",
+				"PokeWarehouse〔class〕"
+			],
+			[
+				"M",
+				"Model〔namespace〕"
+			],
+			[
+				"subscri",
+				"subscribe"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"sub",
+				"subscribe"
+			],
+			[
+				"subs",
+				"subscriptions"
+			],
+			[
+				"cor",
+				"corporateId"
+			],
+			[
+				"is_bo",
+				"is_object〔function〕"
+			],
+			[
+				"or",
+				"$order〔variable〕"
+			],
+			[
+				"noti",
+				"notifs〔variable〕"
+			],
+			[
+				"not",
+				"notifCount"
+			],
+			[
+				"append",
+				"appendListNotif"
+			],
+			[
+				"broadc",
+				"broadcastOn"
+			],
+			[
+				"customer",
+				"$customer〔variable〕"
+			],
+			[
+				"broad",
+				"broadcastOn"
+			],
+			[
+				"Pke",
+				"PokeSales〔namespace〕"
+			],
+			[
+				"corporate",
+				"corporateId"
+			],
+			[
+				"co",
+				"corporate"
+			],
+			[
+				"ord",
+				"$orderObj〔variable〕"
+			],
+			[
+				"perm",
+				"$permalink〔variable〕"
+			],
+			[
+				"Inventory",
+				"InventoryException"
+			],
+			[
+				"Invoice",
+				"InvoiceException"
+			],
+			[
+				"conver",
+				"converted"
+			],
+			[
+				"provinc",
+				"provinces"
+			],
+			[
+				"ship",
+				"$shipAddrO〔variable〕"
+			],
+			[
+				"bill",
+				"$billAddrO〔variable〕"
+			],
+			[
+				"city",
+				"cityId"
+			],
+			[
+				"provi",
+				"provinceId"
+			],
+			[
+				"addr",
+				"$addrFields〔variable〕"
+			],
+			[
+				"cos",
+				"customers"
+			],
+			[
+				"wh",
+				"whitespace"
+			],
+			[
+				"prod",
+				"$products〔variable〕"
+			],
+			[
+				"produc",
+				"products"
+			],
+			[
+				"type",
+				"typeahead"
+			],
+			[
+				"param",
+				"$param2〔variable〕"
+			],
+			[
+				"amou",
+				"amountPayable"
+			],
+			[
+				"Bi",
+				"BillApproved〔class〕"
+			],
+			[
+				"packa",
+				"$package_type〔variable〕"
+			],
+			[
+				"pack",
+				"package_type"
+			],
+			[
+				"pacak",
+				"$packages〔variable〕"
+			],
+			[
+				"PHP_MAX",
+				"PHP_INT_MAX〔constant〕"
+			],
+			[
+				"pa",
+				"package"
+			],
+			[
+				"corpr",
+				"corporateId"
+			],
+			[
+				"trim",
+				"$trimmify〔variable〕"
+			],
+			[
+				"Vali",
+				"Validator-make	Validator-make"
+			],
+			[
+				"compan",
+				"$company〔variable〕"
+			],
+			[
+				"Bank",
+				"BankAccount〔class〕"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"corp",
+				"corporates"
+			],
+			[
+				"ge",
+				"getCurrentRoute"
+			],
+			[
+				"order",
+				"$orderDate〔variable〕"
+			],
+			[
+				"C",
+				"Carbon"
+			],
+			[
+				"com",
+				"$company〔variable〕"
+			],
+			[
+				"compa",
+				"company"
+			],
+			[
+				"billad",
+				"billaddr"
+			],
+			[
+				"shipaddr",
+				"$shipaddr〔variable〕"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"redir",
+				"$redirTo〔variable〕"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"Client",
+				"ClientTrait〔namespace〕"
+			],
+			[
+				"data-",
+				"data-toggle=〔attribute〕"
+			],
+			[
+				"activat",
+				"activationCode"
+			],
+			[
+				"activa",
+				"activationCode"
+			],
+			[
+				"as",
+				"asset	blade-asset"
+			],
+			[
+				"Cli",
+				"ClientTrait"
+			],
+			[
+				"valid",
+				"validator"
+			],
+			[
+				"vali",
+				"validator"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"Order",
+				"OrderTrait"
+			],
+			[
+				"shipping",
+				"shippingCalcMethod"
+			],
+			[
+				"get",
+				"getShippingFee"
+			],
+			[
+				"shiping",
+				"shippingFee"
+			],
+			[
+				"shippin",
+				"shippingFee"
+			],
+			[
+				"shippingC",
+				"shippingCalcMethod"
+			],
+			[
+				"array_",
+				"array_push"
+			],
+			[
+				"ews",
+				"$ews_message〔variable〕"
+			],
+			[
+				"invoice",
+				"$invoice〔variable〕"
+			],
+			[
+				"invoi",
+				"$invoiceMdl〔variable〕"
+			],
+			[
+				"Inv",
+				"Invoice〔class〕"
+			],
+			[
+				"OrdeR",
+				"OrderLegitimated"
+			],
+			[
+				"finan",
+				"$financeGuys〔variable〕"
+			],
+			[
+				"finance",
+				"financeGuys"
+			],
+			[
+				"sales",
+				"salesGuys"
+			],
+			[
+				"sale",
+				"salesGuys"
+			],
+			[
+				"Ordre",
+				"OrderChecked"
+			],
+			[
+				"getAdm",
+				"getAdminGuys〔function〕"
+			],
+			[
+				"corop",
+				"corporateId"
+			],
+			[
+				"Mail-qu",
+				"Mail-queue	Mail-queue"
+			],
+			[
+				"Event",
+				"Events"
+			],
+			[
+				"in",
+				"inv"
+			],
+			[
+				"corpora",
+				"$corporate〔variable〕"
+			],
+			[
+				"invGu",
+				"$invGuy〔variable〕"
+			],
+			[
+				"m",
+				"Model〔namespace〕"
+			],
+			[
+				"default",
+				"defaultCurrency"
+			],
+			[
+				"curren",
+				"$currencies〔variable〕"
+			],
+			[
+				"Cache",
+				"Cache-get	Cache-get"
+			],
+			[
+				"set",
+				"setFeature〔function〕"
+			],
+			[
+				"province",
+				"province_id"
+			],
+			[
+				"cache",
+				"cacheDir〔function〕"
+			],
+			[
+				"Addre",
+				"AddressTrait"
+			],
+			[
+				"intval",
+				"intval〔function〕"
+			],
+			[
+				"Valida",
+				"Validator"
+			],
+			[
+				"user",
+				"userAddress〔function〕"
+			],
+			[
+				"shi",
+				"$shipaddr〔variable〕"
+			],
+			[
+				"intvl",
+				"intval〔function〕"
+			],
+			[
+				"float",
+				"floatval〔function〕"
+			],
+			[
+				"intva",
+				"intval〔function〕"
+			],
+			[
+				"orde",
+				"$orders〔variable〕"
+			],
+			[
+				"Eloquent-",
+				"Eloquent-unguard	Eloquent-unguard"
+			],
+			[
+				"is",
+				"$isCompanyOrder〔variable〕"
+			],
+			[
+				"corpo",
+				"corporateId"
+			],
+			[
+				"ro",
+				"route	blade-route"
+			],
+			[
+				"fore",
+				"foreach	blade-foreach"
+			],
+			[
+				"Val",
+				"Validator〔namespace〕"
+			],
+			[
+				"numOf",
+				"numOfUser"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"package",
+				"$package_type〔variable〕"
+			],
+			[
+				"pac",
+				"$package_type〔variable〕"
+			],
+			[
+				"Addres",
+				"Address"
+			],
+			[
+				"member",
+				"$member〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 350.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"VIEW",
+				"Laravel Generate: View"
+			],
+			[
+				"view",
+				"Laravel Generate: View"
+			],
+			[
+				"contro",
+				"Laravel Generate: Controller"
+			],
+			[
+				"command",
+				"Laravel Artisan: Command: Make"
+			],
+			[
+				"test",
+				"Laravel Generate: Test"
+			],
+			[
+				"seed",
+				"Laravel Generate: Seed"
+			],
+			[
+				"migra",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"mig",
+				"Laravel Generate: Migration"
+			],
+			[
+				"migrat",
+				"Laravel Generate: Migration"
+			],
+			[
+				"migrate",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"migrati",
+				"Laravel Generate: Migration"
+			],
+			[
+				"migration",
+				"Laravel Generate: Migration"
+			],
+			[
+				"model",
+				"Laravel Generate: Model"
+			],
+			[
+				"rollba",
+				"Laravel Artisan: Migrate: Rollback"
+			],
+			[
+				"roll",
+				"Laravel Artisan: Migrate: Rollback"
+			],
+			[
+				"migratio",
+				"Laravel Generate: Migration"
+			],
+			[
+				"mi",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"control",
+				"Laravel Generate: Controller"
+			],
+			[
+				"vew",
+				"View: Toggle Menu"
+			],
+			[
+				"contr",
+				"Laravel Generate: Controller"
+			],
+			[
+				"Model",
+				"Laravel Generate: Model"
+			],
+			[
+				"see",
+				"Laravel Generate: Seed"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"rollback",
+				"Laravel Artisan: Migrate: Rollback"
+			],
+			[
+				"MODEL",
+				"Laravel Generate: Model"
+			],
+			[
+				"migr",
+				"Laravel Generate: Migration"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"blade for",
+				"Snippet: blade-foreach"
+			],
+			[
+				"Snippet: if",
+				"Snippet: blade-if"
+			],
+			[
+				"cont",
+				"Laravel Generate: Controller"
+			],
+			[
+				"mode",
+				"Laravel Generate: Model"
+			],
+			[
+				"mod",
+				"Laravel Generate: Model"
+			],
+			[
+				"Contro",
+				"Laravel Generate: Controller"
+			],
+			[
+				"Control",
+				"Laravel Generate: Controller"
+			],
+			[
+				"Controller",
+				"Laravel Generate: Controller"
+			],
+			[
+				"controller",
+				"Laravel Generate: Controller"
+			],
+			[
+				"Contr",
+				"Laravel Generate: Controller"
+			],
+			[
+				"con",
+				"Laravel Generate: Controller"
+			],
+			[
+				"generate view",
+				"Laravel Generate: View"
+			],
+			[
+				"generate contro",
+				"Laravel Generate: Controller"
+			],
+			[
+				"generate contr",
+				"Laravel Generate: Controller"
+			],
+			[
+				"generate ",
+				"Laravel Generate: Model"
+			],
+			[
+				"generate",
+				"Laravel Generate: Migration"
+			],
+			[
+				"model ",
+				"Laravel Generate: Model"
+			],
+			[
+				"generate cont",
+				"Laravel Generate: Controller"
+			],
+			[
+				"generate seed",
+				"Laravel Generate: Seed"
+			],
+			[
+				"generate se",
+				"Laravel Generate: Seed"
+			],
+			[
+				"generate mig",
+				"Laravel Generate: Migration"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"controll",
+				"Laravel Generate: Controller"
+			],
+			[
+				"mo",
+				"Laravel Generate: Model"
+			],
+			[
+				"MIG",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"generate see",
+				"Laravel Generate: Seed"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"view ",
+				"Laravel Generate: View"
+			],
+			[
+				"Migra",
+				"Laravel Generate: Migration"
+			],
+			[
+				"View",
+				"Laravel Generate: View"
+			],
+			[
+				"artisan seed",
+				"Laravel Artisan: DB:Seed"
+			],
+			[
+				"artisan see",
+				"Laravel Artisan: DB:Seed"
+			],
+			[
+				"artisan:seed",
+				"Laravel Artisan: DB:Seed"
+			],
+			[
+				"laravel seed",
+				"Laravel Artisan: DB:Seed"
+			],
+			[
+				"miga",
+				"Laravel Artisan: Migrate: Reset"
+			],
+			[
+				"laravel generate",
+				"Laravel Generate: Seed"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"artisan mi",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"Mig",
+				"Laravel Generate: Migration"
+			],
+			[
+				"genera",
+				"Laravel Generate: Migration"
+			],
+			[
+				"gitlab",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git: pul",
+				"Git: Pull"
+			]
+		],
+		"width": 839.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zkrhm/devops/setengahmateng/group_vars",
+		"/home/zkrhm/devops/setengahmateng/host_vars",
+		"/home/zkrhm/devops/setengahmateng/roles",
+		"/home/zkrhm/devops/setengahmateng/roles/iptables",
+		"/home/zkrhm/devops/setengahmateng/roles/iptables/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb/handlers",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb/templates",
+		"/home/zkrhm/devops/setengahmateng/roles/nginx",
+		"/home/zkrhm/devops/setengahmateng/roles/nginx/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/node_js",
+		"/home/zkrhm/devops/setengahmateng/roles/node_js/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/php",
+		"/home/zkrhm/devops/setengahmateng/roles/php/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/pip",
+		"/home/zkrhm/devops/setengahmateng/roles/pip/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/redis",
+		"/home/zkrhm/devops/setengahmateng/roles/redis/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/site",
+		"/home/zkrhm/devops/setengahmateng/roles/site/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/supervisor",
+		"/home/zkrhm/devops/setengahmateng/roles/supervisor/tasks",
+		"/home/zkrhm/devops/setengahmateng/roles/supervisor/templates"
+	],
+	"file_history":
+	[
+		"/home/zkrhm/devops/setengahmateng/roles/site/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/site/tasks/laravel.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/supervisor/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/redis/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/httpd/templates/httpd.conf.j2",
+		"/home/zkrhm/devops/setengahmateng/roles/httpd/handlers/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/httpd/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/pip/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/php/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/nginx/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb/handlers/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/elasticsearch/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/production",
+		"/home/zkrhm/devops/setengahmateng/development",
+		"/home/zkrhm/devops/setengahmateng/staging",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb/files/mongo.repo",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb/templates/mongo.repo.j2",
+		"/home/zkrhm/devops/setengahmateng/roles/mongodb/templates/mongo.repo",
+		"/home/zkrhm/devops/setengahmateng/roles/node_js/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/iptables/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/db.yml",
+		"/home/zkrhm/devops/setengahmateng/web.yml",
+		"/home/zkrhm/devops/setengahmateng/inventory",
+		"/home/zkrhm/devops/setengahmateng/roles/common/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/site/vars/main.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/site/tasks/java.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/site/tasks/nodejs.yml",
+		"/home/zkrhm/devops/setengahmateng/roles/site/templates/nginx-vhosts.j2",
+		"/home/zkrhm/devops/setengahmateng/roles/site/templates/httpd-vhosts.j2",
+		"/home/zkrhm/devops/setengahmateng/roles/supervisor/templates/supervisor-program.conf.j2",
+		"/home/zkrhm/devops/setengahmateng/roles/composer/tasks/main.yml",
+		"/home/zkrhm/devops/setengahmateng/hosts",
+		"/home/zkrhm/devops/setengahmateng/task.yml",
+		"/home/zkrhm/projects/kremya/resources/views/layouts/ichut/client_dash.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/layouts/ichut/frontpages.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/layouts/ichut/shared_notifbar.blade.php",
+		"/home/zkrhm/projects/kremya/resources/lang/en/client.php",
+		"/home/zkrhm/projects/kremya/app/Http/Middleware/Corporate.php",
+		"/home/zkrhm/projects/kremya/resources/views/layouts/ichut/navbar-front.blade.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Order/OrderStateChanged.php",
+		"/home/zkrhm/projects/kremya/app/Providers/EventServiceProvider.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Inventory/IssueWarehouseOrder.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Client/CartController.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Inventory/MakeCheckStock.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Client/ClientController.php",
+		"/home/zkrhm/projects/kremya/app/Traits/AddressTrait.php",
+		"/home/zkrhm/projects/kremya/app/Traits/ClientTrait.php",
+		"/home/zkrhm/projects/kremya/app/Traits/CorporateTrait.php",
+		"/home/zkrhm/projects/kremya/app/Traits/MetricTrait.php",
+		"/home/zkrhm/projects/kremya/app/Traits/OrderTrait.php",
+		"/home/zkrhm/projects/kremya/app/Traits/RoleTrait.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/CorporateController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Client/AuthController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Client/AddressController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Client/WizardController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/ShipAddrController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/OrderController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/OrderController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/BillAddrController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Admin/AuthController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/MetricController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Admin/MetricController.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Controller.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/WizardController.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Invoice/InvoiceSent.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Order/OrderCreatedNotif.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Invoice/GenerateInvoice.php",
+		"/home/zkrhm/projects/kremya/app/Events/Pokers/PokeWarehouse.php",
+		"/home/zkrhm/projects/kremya/node/notif.js",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/RoleTrait.php",
+		"/home/zkrhm/projects/kremya/app/Traits/ConvertTrait.php",
+		"/home/zkrhm/projects/kremya/app/Events/Pokers/PokeFinance.php",
+		"/home/zkrhm/projects/kremya/node/ds.js",
+		"/home/zkrhm/projects/kremya/database/seeds/RoleSeeder.php",
+		"/home/zkrhm/projects/kremya/app/Model/Shared/Notif.php",
+		"/home/zkrhm/projects/kremya/app/Events/Pokers/PokeAdmin.php",
+		"/home/zkrhm/projects/kremya/app/Events/Pokers/PokeSales.php",
+		"/home/zkrhm/projects/kremya/app/Events/Pokers/PokeCustomer.php",
+		"/home/zkrhm/projects/kremya/app/Model/Shared/Subscription.php",
+		"/home/zkrhm/projects/kremya/app/Model/Shared/Role.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/TeamController.php",
+		"/home/zkrhm/projects/kremya/app/Model/Shared/Permission.php",
+		"/home/zkrhm/projects/kremya/app/Model/Shared/User.php",
+		"/home/zkrhm/projects/kremya/resources/views/mail/customer/proforma.blade.php",
+		"/home/zkrhm/projects/kremya/app/Model/Shared/Order.php",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/Corporate/InventoryController.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Order/StockChecked.php",
+		"/home/zkrhm/projects/kremya/app/Http/routes.php",
+		"/home/zkrhm/projects/kremya/app/Listeners/Pokers/SaveNotif.php",
+		"/home/zkrhm/projects/kremya/app/Exceptions/OrderException.php",
+		"/home/zkrhm/projects/kremya/storage/framework/views/d8566b52d4a70861639539e8225149bf",
+		"/home/zkrhm/projects/kremya/app/Http/Controllers/AddressTrait.php",
+		"/home/zkrhm/projects/kremya/app/Console/Commands/Pokes.php",
+		"/home/zkrhm/projects/kremya/app/Console/Kernel.php",
+		"/home/zkrhm/projects/kremya/app/Commands/PokeCommand.php",
+		"/home/zkrhm/projects/kremya/resources/views/mail/auth/password-changed.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/mail/inventory/availability-checked.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/mail/inventory/req-check-stock.blade.php",
+		"/home/zkrhm/projects/kremya/app/Events/Poker/PokeSales.php",
+		"/home/zkrhm/projects/kremya/app/Events/Invoice/PokeWarehouse.php",
+		"/home/zkrhm/projects/kremya/node/.env",
+		"/home/zkrhm/projects/inzpire/serverDoc(2).txt",
+		"/home/zkrhm/projects/kremya/app/Events/Order/OrderApproved.php",
+		"/home/zkrhm/projects/kremya/app/Events/Order/OrderCreated.php",
+		"/home/zkrhm/projects/kremya/config/broadcasting.php",
+		"/home/zkrhm/projects/kremya/.env",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/inventory/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/invoice/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/mail/customer/invoice.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/cart/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/order/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/wizard/personal.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/order/detail.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/setting/addr/edit.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/setting/addr/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/setting/password/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/client/setting/profile/edit.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/inventory/detail.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/currency/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/dashboard/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/product/edit.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/product/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/order/view.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/order/detail.blade.php",
+		"/home/zkrhm/projects/kremya/resources/views/front/company/addr/edit.blade.php",
+		"/home/zkrhm/projects/kremya/app/Model/Shared/Invoice.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/zkrhm/projects/kremya/resources",
+			"/home/zkrhm/projects/kremya/resources/views",
+			"/home/zkrhm/projects/kremya/resources/views/layouts/ichut",
+			"/home/zkrhm/projects/kremya/app",
+			"/home/zkrhm/projects/kremya/app/Http/Controllers",
+			"/home/zkrhm/projects/kremya/app/Http",
+			"/home/zkrhm/projects/kremya/app",
+			"/home/zkrhm/projects/kremya/storage/framework/views",
+			"/home/zkrhm/projects/kremya/app",
+			"/home/zkrhm/projects/kremya/app/Http",
+			"/home/zkrhm/projects/kremya/app/Listeners",
+			"/home/zkrhm/projects/kremya/app",
+			"/home/zkrhm/projects/kremya/app/Http",
+			"/home/zkrhm/projects/kremya/app/Http/Controllers",
+			"/home/zkrhm/projects/kremya/vendor/laravel/framework/src/Illuminate",
+			"/home/zkrhm/projects/kremya/public/assets/js",
+			"/home/zkrhm/projects/cm/app/libraries/CmPlus",
+			"/home/zkrhm/projects/cm/vendor/laravel/framework/src/Illuminate",
+			"/home/zkrhm/projects/cm/app/database/migrations",
+			"/home/zkrhm/projects/cm/app/database",
+			"/home/zkrhm/projects/cm/app/database/migrations",
+			"/home/zkrhm/projects/cm/app/controllers/OTA",
+			"/home/zkrhm/projects/cm/app/views/ota",
+			"/home/zkrhm/projects/cm/app/controllers/OTA",
+			"/home/zkrhm/projects/cm/app/views/ota",
+			"/home/zkrhm/projects/cm/app/controllers/OTA",
+			"/home/zkrhm/projects/cm/app/controllers",
+			"/home/zkrhm/projects/cm/app/views",
+			"/home/zkrhm/projects/cm/app/controllers",
+			"/home/zkrhm/projects/cm/app/views",
+			"/home/zkrhm/projects/cm/app/controllers",
+			"/home/zkrhm/projects/cm/app",
+			"/home/zkrhm/projects/cm",
+			"/home/zkrhm/projects/cm/app/database/migrations",
+			"/home/zkrhm/projects/cm",
+			"/home/zkrhm/projects/librarian-project/librarian/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"=",
+			"	",
+			"register_your_business",
+			"register",
+			"daftarkan usaha anda",
+			"daftarkan perusahaan anda",
+			"App\\\\Http\\\\.*Trait",
+			"Trait",
+			"AddressTrait",
+			"ClientTrait",
+			"subscription",
+			"Notif",
+			"notif",
+			"proforma",
+			"invoice",
+			"notifCustomer",
+			"redis",
+			"49bf",
+			"Poke",
+			"email",
+			"admin",
+			"mail.order.created",
+			"corp",
+			"PokeWarehouse",
+			"dd(",
+			"dd",
+			"notiffinance",
+			"->save()",
+			"Order",
+			"orders",
+			".\"\";\n",
+			"$invoice",
+			"mail.order.proforma",
+			"service.customer.fetch",
+			"(\\s)?'",
+			"'name'=>'(Kab|Kota)(\\.)?",
+			"'name'=>'(Kab|Kota)[\\w\\s\\.]+'",
+			"->",
+			"OrderOffered",
+			"customer-state-changes",
+			"addressUpsert",
+			"sidebar-wrapper",
+			"'states'",
+			"                  ",
+			"png",
+			"jpg",
+			"cartinfo",
+			"face11",
+			"logo.png",
+			".png",
+			"dd(",
+			"dd",
+			"status",
+			"cart",
+			"            \n",
+			"$e",
+			"mail.activation",
+			"\",",
+			",",
+			"Bank::create([",
+			"$",
+			"(?<=\\\")\\s",
+			"^([\\d]+)",
+			"^(\\s)",
+			" ",
+			"^\\s",
+			"^([\\d]+\\s)",
+			"$province->name",
+			"dd(",
+			"=>new",
+			"'province_id'=>$province->id",
+			"');",
+			"City::create([",
+			"corporate.orders",
+			"ProductPolicy",
+			"inventory",
+			"sales",
+			"admin",
+			"$role",
+			"Mail::send",
+			"$",
+			"([\\d]+\\s)",
+			"[\\s]+$",
+			"([\\d]+\\s)",
+			"$",
+			");",
+			"([\\d]+\\s)",
+			"$",
+			"^",
+			"([\\d]+\\s)",
+			"put",
+			"set",
+			"\\{\\{route\\('[a-z\\.]*'\\)\\}\\}",
+			"\\{\\{route\\(\\'*\\'\\)\\}\\}",
+			"kamu",
+			"$key",
+			"attempt(",
+			"attempt",
+			"attempt(",
+			"attempt",
+			" <",
+			"client",
+			"th",
+			"skin-config",
+			"th",
+			"synchronize",
+			"ota.api.config",
+			"Blade",
+			"resend",
+			"HotelUser",
+			"otaguard",
+			"$this->es",
+			"index.html",
+			"Config.get",
+			"Why",
+			"NRGHost",
+			"open",
+			"img/",
+			"create_api_stages",
+			"UpdateHotelMapping",
+			"create_pms",
+			"getUrl",
+			"sendRequestToOta",
+			"handlerInternalOrApiDevel",
+			"check",
+			"impl-modal",
+			"modal",
+			"currency"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":",
+			"  ",
+			"subscriptions",
+			"$order",
+			"",
+			"'steps'",
+			"\",\"name\"=>",
+			",\"name\"=>",
+			"Bank::create([\"code\"=>",
+			"\"]);",
+			"",
+			"Bank::create([\"($1)\",\"",
+			"\"($1)\",\"",
+			"",
+			" ",
+			" => new",
+			"'province_id'=>new \\MongoId($province->id)",
+			"']);",
+			"City::create(['rank'=>0,",
+			"finance",
+			"inventory",
+			"sales",
+			"$admin",
+			"']);",
+			"City::create(['province_id'=>$province->id, 'name'=>'",
+			"",
+			"City::create(['province_id'=>$province->id,'name'=>'",
+			"']);",
+			"]);",
+			"City::create(['province_id'=>$province->id, 'name'=>'",
+			"');",
+			"City::create(['province_id'=>$province->id,'name'=>'",
+			"",
+			"#",
+			"anda",
+			"$this->key",
+			"td",
+			"ota.api.dummyhotel",
+			"/",
+			"Config::get",
+			"EasyCM",
+			"assets/img/",
+			"$client",
+			"role_permissions",
+			"=> $role->id ",
+			"DB::table('role_feature')->insert",
+			" => ",
+			"7",
+			"1",
+			"OtaFeature",
+			"CmPlus.notif",
+			"ota",
+			"hotel",
+			"ota.api.config",
+			"ota.mapping.",
+			"ota.api.",
+			"ota.settings.",
+			"ota.docs.",
+			"ota.log.",
+			"ota.api.",
+			"ota.docs.",
+			"admin.managed.ota",
+			"admin.managed.hotel",
+			"role",
+			"$this->type",
+			"$this->index",
+			"hotel_code",
+			"'=>'",
+			"Country::",
+			"(array) $data",
+			"rate-tab",
+			"av-tab",
+			"load-tab",
+			"type=\"checkbox\" class=\"dow\"",
+			"",
+			"$req",
+			"$this->console->",
+			"",
+			"dashboard",
+			"$otashortname",
+			"layout.ota.",
+			"libraries",
+			"URL::asset",
+			"asset",
+			"libraries\\image",
+			"Country",
+			"",
+			"{{URL::to('/assets')}}/",
+			"{{URL::to('/assets/')}}"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 63.0
+	},
+	"output.find_results":
+	{
+		"height": 334.0
+	},
+	"output.git":
+	{
+		"height": 104.0
+	},
+	"pinned_build_system": "",
+	"project": "ansible-stm.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wizardcontroller",
+				"kremya/app/Http/Controllers/Client/WizardController.php"
+			],
+			[
+				"issue",
+				"kremya/app/Listeners/Inventory/IssueWarehouseOrder.php"
+			],
+			[
+				"makecheck",
+				"kremya/app/Listeners/Inventory/MakeCheckStock.php"
+			],
+			[
+				"generateinvo",
+				"kremya/app/Listeners/Invoice/GenerateInvoice.php"
+			],
+			[
+				"invoicesent",
+				"kremya/app/Listeners/Invoice/InvoiceSent.php"
+			],
+			[
+				"ordercreate",
+				"kremya/app/Listeners/Order/OrderCreatedNotif.php"
+			],
+			[
+				"orderstate",
+				"kremya/app/Listeners/Order/OrderStateChanged.php"
+			],
+			[
+				"wizard",
+				"kremya/app/Http/Controllers/Corporate/WizardController.php"
+			],
+			[
+				"shipadd",
+				"kremya/app/Http/Controllers/Corporate/ShipAddrController.php"
+			],
+			[
+				"ordercon",
+				"kremya/app/Http/Controllers/Corporate/OrderController.php"
+			],
+			[
+				"ordercontro",
+				"kremya/app/Http/Controllers/OrderController.php"
+			],
+			[
+				"billad",
+				"kremya/app/Http/Controllers/Corporate/BillAddrController.php"
+			],
+			[
+				"cartcontro",
+				"kremya/app/Http/Controllers/Client/CartController.php"
+			],
+			[
+				"authcon",
+				"kremya/app/Http/Controllers/Admin/AuthController.php"
+			],
+			[
+				"metric",
+				"kremya/app/Http/Controllers/Corporate/MetricController.php"
+			],
+			[
+				"metriccont",
+				"kremya/app/Http/Controllers/Admin/MetricController.php"
+			],
+			[
+				"ds.",
+				"kremya/node/ds.js"
+			],
+			[
+				"notif",
+				"kremya/node/notif.js"
+			],
+			[
+				"rolesee",
+				"kremya/database/seeds/RoleSeeder.php"
+			],
+			[
+				"rolese",
+				"kremya/database/seeds/RoleSeeder.php"
+			],
+			[
+				"pokecus",
+				"kremya/app/Events/Pokers/PokeCustomer.php"
+			],
+			[
+				"poke",
+				"kremya/app/Events/Pokers/PokeWarehouse.php"
+			],
+			[
+				"orderste",
+				"kremya/app/Listeners/Order/OrderStateChanged.php"
+			],
+			[
+				"ordercre",
+				"kremya/app/Listeners/Order/OrderCreatedNotif.php"
+			],
+			[
+				"makech",
+				"kremya/app/Listeners/Inventory/MakeCheckStock.php"
+			],
+			[
+				"order",
+				"kremya/app/Model/Shared/Order.php"
+			],
+			[
+				"saveno",
+				"kremya/app/Listeners/Pokers/SaveNotif.php"
+			],
+			[
+				"pokeware",
+				"kremya/app/Events/Pokers/PokeWarehouse.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 438.0,
+		"last_filter": "op",
+		"selected_items":
+		[
+			[
+				"op",
+				"~/projects/operator/operator.sublime-project"
+			],
+			[
+				"",
+				"~/projects/kremya/kremya.sublime-project"
+			],
+			[
+				"cc",
+				"~/projects/cruise-control/cc.sublime-project"
+			],
+			[
+				"tolongin",
+				"~/projects/tolongin-api/api.tolongin.sublime-project"
+			]
+		],
+		"width": 333.0
+	},
+	"select_symbol":
+	{
+		"height": 350.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 814.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

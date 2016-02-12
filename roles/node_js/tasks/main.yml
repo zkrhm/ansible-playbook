@@ -1,0 +1,8 @@
+---
+- name: get node.js 4 repo
+  shell: curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
+
+- name: install node.js 4
+  yum: 
+    name: nodejs
+    state: latest

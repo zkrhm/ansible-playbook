@@ -1,0 +1,15 @@
+---
+- name: install php 5.6w and it's dependencies
+  yum:
+    name: {{item}}
+    state: installed
+  with_items: 
+    - php56w
+    - php56w-devel
+    - php56w-xml
+    - php56w-mbstring
+    - php56w-mcrypt
+    - php56w-pdo
+
+- name: install pecl
+  pear: name=mongo state=present

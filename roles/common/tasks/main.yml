@@ -1,0 +1,10 @@
+---
+- name: install common things..
+  yum: name={{ item }} state=latest
+  with_items:
+    - epel-release
+    - git
+    - gcc
+    - gcc-c++
+    - make
+    - openssl-devel

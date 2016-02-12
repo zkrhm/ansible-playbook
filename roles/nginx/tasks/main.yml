@@ -1,0 +1,21 @@
+---
+- name: remove all existed nginx
+  yum:
+    name:nginx
+    state:absent
+
+- name: provide nginx ver 1.8
+  yum:
+    name: https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+    state: present
+
+- name: install nginx 1.8
+  yum:
+    name: nginx18
+    state: latest
+
+- name: Make nginx up and running
+  service:
+    name: nginx
+    state: started
+    enabled: true

@@ -1,0 +1,12 @@
+---
+- hosts: webservers
+  remote_user: root
+  roles:
+  - iptables
+  - common
+  - php
+  - composer
+  - pip
+  - supervisor
+  - nginx
+  - httpd

@@ -1,0 +1,14 @@
+---
+- name: Install iptables
+  yum:
+    name: iptables-service
+    state: present
+
+- name: activate iptables service
+  service:
+    name: iptables
+    state: started
+    enabled: yes
+
+- name: saving iptables config
+  shell: service iptables save
