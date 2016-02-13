@@ -1,7 +1,7 @@
 ---
 - name: Install iptables
   yum:
-    name: iptables-service
+    name: iptables-services
     state: present
 
 - name: activate iptables service

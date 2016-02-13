@@ -8,3 +8,4 @@
     - gcc-c++
     - make
     - openssl-devel
+    - nano

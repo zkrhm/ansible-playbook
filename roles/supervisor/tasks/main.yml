@@ -1,22 +1,18 @@
 ---
 - name: installing supervisor
-  pip:
-    name:supervisor
-    state:latest
+  pip: name=supervisor state=latest
+
+- name: create supervisor log directory
+  file: path=/var/log/supervisor state=directory mode=0755
 
 - name: create supervisor config directory
   shell: mkdir -p /etc/supervisor/conf.d
 
+- name: setup systemd
+  copy: src=centos-systemd dest=/etc/systemd/system/supervisord.service
+
 - name: apply supervisor template.
-  template: 
-    src:supervisor.conf.jj2
-    dest:/etc/supervisor/supervisor.conf
-    owner:root
-    group:root
-    mode:0600
+  template: src=supervisor.conf.jj2 dest=/etc/supervisor.conf owner=root group=root mode=0600
 
 - name: make supervisord up and running
-  service:
-    name:supervisord
-    state:started
-    enabled:yes
+  service: name=supervisord state=started enabled=yes

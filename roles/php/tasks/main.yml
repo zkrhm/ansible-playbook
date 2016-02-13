@@ -1,7 +1,10 @@
 ---
+- name: configure rpm to get php 5.6 (from webtatic)
+  yum: name=https://mirror.webtatic.com/yum/el7/webtatic-release.rpm state=present
+
 - name: install php 5.6w and it's dependencies
   yum:
-    name: {{item}}
+    name: "{{item}}"
     state: installed
   with_items: 
     - php56w
@@ -10,6 +13,10 @@
     - php56w-mbstring
     - php56w-mcrypt
     - php56w-pdo
+    - php56w-pear
 
-- name: install pecl
-  pear: name=mongo state=present
+- name: install pecl for mongodb
+  command: pecl install mongodb
+  register: mongodb_result
+  changed_when: "'installed' not in mongodb_result.stdout"
+  failed_when: "'1.1.2' not in mongodb_result.stdout"

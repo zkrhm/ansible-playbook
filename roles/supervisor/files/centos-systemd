@@ -1,0 +1,19 @@
+# supervisord service for sysstemd (CentOS 7.0+)
+# by ET-CS (https://github.com/ET-CS)
+[Unit]
+Description=supervisord - Supervisor process control system for UNIX
+Documentation=http://supervisord.org
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/supervisord -c /etc/supervisor.conf
+ExecStop=/usr/bin/supervisorctl -c /etc/supervisor.conf shutdown
+ExecReload=/usr/bin/supervisorctl -c /etc/supervisor.conf reload
+KillMode=process
+Restart=on-failure
+RestartSec=42s
+User=root
+
+[Install]
+WantedBy=multi-user.target
