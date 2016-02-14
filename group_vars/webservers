@@ -1,2 +1,13 @@
 nginx_port: 80
 httpd_port: 8000
+
+laravel_docroot: /var/www/
+nodejs_docroot: /var/lib/node/
+
+app_list:
+  - {
+      type: laravel ,name: asite ,
+      repo: git@github.com/zkrhm/testing,
+      branch: develop,
+      use_scheduler: yes , use_queue: yes 
+    }

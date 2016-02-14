@@ -1,0 +1,4 @@
+---
+- name: Copy httpd vhosts
+  template: src=httpd-vhosts.j2 dest=/etc/httpd/conf.d/{{item.name}}.conf
+  with_items: app_list

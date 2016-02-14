@@ -1,0 +1,8 @@
+---
+- name: getting source from repository
+- name: doing npm install
+- name: put supervisor program's configuration
+- name: reread supervisor
+- name: start the program
+- name: put nginx config
+- name: reload nginx

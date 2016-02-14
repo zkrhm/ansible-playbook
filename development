@@ -1,0 +1,11 @@
+[webservers]
+192.168.4.3
+
+#sample only, please provide your server's address
+
+[webservers]
+#stg.production.com
+
+
+[dbservers]
+#stg.production.com
