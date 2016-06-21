@@ -2,12 +2,11 @@
 - hosts: webservers
   remote_user: root
   roles:
-  # - common
-  # - iptables
-  # - php
-  # - composer
-  # - pip
-  # - supervisor
-  # - nginx
-  # - httpd
-  - apps
+  - common
+  - php
+  - composer
+  - pip
+  - supervisor
+  - nginx
+  - httpd
+  # - apps

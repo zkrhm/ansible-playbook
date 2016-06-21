@@ -14,9 +14,13 @@
     - php56w-mcrypt
     - php56w-pdo
     - php56w-pear
+  register: phpinstall_result
+  ignore_errors: True
 
-- name: install pecl for mongodb
-  command: pecl install mongodb
-  register: mongodb_result
-  changed_when: "'installed' not in mongodb_result.stdout"
-  failed_when: "'1.1.2' not in mongodb_result.stdout"
+- include: mongodb.yml
+  tags: 
+    - mongo
+
+- include: imagick.yml
+  tags:
+    - imagick

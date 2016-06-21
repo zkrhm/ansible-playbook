@@ -1,8 +1,20 @@
 ---
 - name: install httpd
   yum: name=httpd state=installed
+  tags: 
+    - httpd
+    - install
 
-# - name: set configuration file
-#   template: src=httpd.conf.j2 dest=/etc/httpd/conf/httpd.conf
-#   notify:
-#     [start httpd]
+- name: setup httpd service
+  service: name=httpd state=started enabled=yes
+  tags:
+    - httpd
+    - service
+
+- name: set configuration file
+  template: src=httpd.conf.j2 dest=/etc/httpd/conf/httpd.conf
+  notify:
+    [restart httpd]
+  tags: 
+    - httpd
+    - configure

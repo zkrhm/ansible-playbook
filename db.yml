@@ -1,7 +1,6 @@
 - hosts: dbservers
   remote_user: root
   roles:
-  - iptables
   - common
   - redis
   - mongodb

@@ -1,0 +1,15 @@
+---
+- name: Installing Imagick-devel.
+  sudo: yes
+  yum:  name=ImageMagick-devel  state=present
+
+# - pear: name=imagick state=present
+#pecl imagick installation ." echo '' " to bypass prompt
+- name: Installing pecl command
+  sudo: yes
+  shell: printf "yes\n" | pecl install imagick
+  ignore_errors: True
+
+- name: Name for template module.
+  sudo: yes
+  template: dest=/etc/php.d/imagick.ini  src=imagick.ini.j2

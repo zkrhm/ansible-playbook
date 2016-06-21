@@ -1,0 +1,11 @@
+---
+- name: install pecl for mongodb
+  command: pecl install mongodb
+  register: mongodb_result
+  # changed_when: "'installed' not in mongodb_result.stdout"
+  # failed_when: "'1.1.2' not in mongodb_result.stdout"
+  ignore_errors: True
+
+- name: Set mongodb file.
+  sudo: yes
+  template: dest=/etc/php.d/mongodb.ini src=mongodb.ini.j2

@@ -1,7 +1,4 @@
-#sample only, please provide your server's address
 [webservers]
-#web.production.com
-
+139.59.246.190:234
 
 [dbservers]
-#db.production.com

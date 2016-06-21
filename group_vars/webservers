@@ -11,3 +11,7 @@ app_list:
       branch: develop,
       use_scheduler: yes , use_queue: yes 
     }
+
+firewall_services:
+  - {service: http, permanent: yes}
+  - {service: https,permanent: yes}
