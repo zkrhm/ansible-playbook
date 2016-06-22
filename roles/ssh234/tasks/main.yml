@@ -1,0 +1,25 @@
+---
+- name: Enable firewalld
+  sudo: yes
+  service: enabled=true name=firewalld state=started
+  tags: 
+    - firewalld
+    - service
+
+
+
+- name: use 234 for firewalld module.
+  sudo: yes
+  firewalld: permanent=true port=234/tcp  state=enabled
+  tags: 
+    - firewalld
+    - add_rule
+
+
+- name: setting and restart sshd.
+  sudo: yes
+  template: dest=/etc/ssh/sshd_config  src=sshd_config.j2
+  notify: [restart sshd]
+  tags: 
+    - sshd
+    - service

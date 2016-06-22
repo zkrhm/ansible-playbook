@@ -1,0 +1,14 @@
+---
+- name: firewall allow debug.
+  debug: msg="Allow {{ ansible_eth0.ipv4.address }} on port {{ item.1 }}"
+  with_together:
+    - "groups['webservers']"
+    - "db_ports"
+
+- name: allow elastic port.
+  sudo: yes
+  firewalld: permanent=true rich_rule='rule family="ipv4" source address="{{ ansible_eth0.ipv4.address }}/32" port port="{{item.1}}" protocol="tcp" accept' state=enabled
+  # with_items:  "groups['webservers']"
+  with_together:
+    - "groups['webservers']"
+    - "db_ports"

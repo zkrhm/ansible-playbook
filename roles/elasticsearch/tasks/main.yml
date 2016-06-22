@@ -1,26 +1,15 @@
 ---
 - name: install java
-  yum:
-    name:java-1.8.0-openjdk.x86_64
-    state:present
+  yum: name="java-1.8.0-openjdk.x86_64" state=present
 
 - name: download elasticsearch
-  get_url: 
-    url: https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.3.noarch.rpm
-    dest: /var/opt/es-1.7.3.noarch.rpm
+  get_url: url=https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.3.noarch.rpm dest=/var/opt/es-1.7.3.noarch.rpm
 
 - name: install elasticsearch rpm
-  yum:
-    name:/var/opt/es-1.7.3.noarch.rpm
-    state:present
+  yum: name=/var/opt/es-1.7.3.noarch.rpm state=present
 
 - name: ensure elasticsearch is running and enable at boot
-  service: 
-    name:elasticsearch
-    state:started
-    enabled:yes
+  service: name=elasticsearch state=started enabled=yes
 
 - name: clean up rpm file
-  file:
-    path: /var/opt/es-1.7.3.noarch.rpm
-    state: absent
+  file: path=/var/opt/es-1.7.3.noarch.rpm  state=absent

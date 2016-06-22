@@ -3,3 +3,6 @@
   sudo: yes
   firewalld: permanent={{item.permanent}}  service={{item.service}} state=enabled
   with_items: "{{firewall_services}}"
+  tags:
+    - firewall
+    - enable

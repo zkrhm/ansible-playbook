@@ -1,0 +1,6 @@
+---
+# this step have tobe done once.
+- hosts: dbservers:webservers
+  remote_user: root
+  roles:
+  - ssh234 #run ssh on port 234
