@@ -1,0 +1,9 @@
+---
+- include: ../../../mongo_common/tasks/main.yml
+
+- name: install mongodb packages
+  yum: name=mongodb-org state=present update_cache=yes
+  with_items: 
+    - mongodb-org-mongos
+    - mongodb-org-shell
+    - mongodb-org-tools

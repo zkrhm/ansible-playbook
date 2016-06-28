@@ -1,7 +1,4 @@
 ---
-- name: copy mongo repo
-  copy: src=mongo.repo dest=/etc/yum.repos.d/mongodb-org-3.2.repo mode=0600
-
 - name: install mongodb packages
   yum: name=mongodb-org state=present update_cache=yes
 

@@ -1,0 +1,20 @@
+- hosts: mongoc
+  remote_user: root
+  roles:
+    - mongodb
+  tasks:
+  tags:
+    - mongo
+    - mongo_control
+
+- hosts: mongod
+  remote_user: root
+  roles:
+  	- mongodb
+  	- mongo_data
+
+- hosts: mongos
+  remote_user: root
+  tasks:
+  	- mongodb
+  	- mongo_query

@@ -10,10 +10,13 @@
 
 - name: use 234 for firewalld module.
   sudo: yes
-  firewalld: permanent=true port=234/tcp  state=enabled
+  firewalld: permanent={{ item.permanent }} port={{ item.port }}  state=enabled
   tags: 
     - firewalld
     - add_rule
+  with_items: 
+    - {port: 234/tcp, permanent: true}
+    - {port: 234/tcp, permanent: false}
 
 
 - name: setting and restart sshd.

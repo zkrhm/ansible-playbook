@@ -1,0 +1,2 @@
+mongoc_port: 27017
+mongoc_replset: ctrl_rs

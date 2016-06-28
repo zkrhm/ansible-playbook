@@ -1,14 +1,27 @@
 ---
 - name: firewall allow debug.
-  debug: msg="Allow {{ ansible_eth0.ipv4.address }} on port {{ item.1 }}"
-  with_together:
-    - "groups['webservers']"
+  debug: msg="Allow {{ item.0 }} on port {{ item.1 }}"
+  with_nested:
+    - "groups['dbservers']"
     - "db_ports"
+  when: item.0 is not none and hostvars[item.0]['ansible_eth0']['ipv4']['address'] != ansible_eth0.ipv4.address
 
-- name: allow elastic port.
+# - name: allow database-webservers interconnect.
+#   sudo: yes
+#   firewalld: permanent=true rich_rule='rule family="ipv4" source address="{{ hostvars[item.0]['ansible_eth0']['ipv4']['address'] }}/32" port port="{{item.1}}" protocol="tcp" accept' state=enabled
+#   with_nested:
+#     - "groups['dbservers']"
+#     - "db_ports"
+#   when: item.0 is not none and hostvars[item.0]['ansible_eth0']['ipv4']['address'] != ansible_eth0.ipv4.address
+
+- name: allow databases interconnect.
   sudo: yes
-  firewalld: permanent=true rich_rule='rule family="ipv4" source address="{{ ansible_eth0.ipv4.address }}/32" port port="{{item.1}}" protocol="tcp" accept' state=enabled
-  # with_items:  "groups['webservers']"
-  with_together:
-    - "groups['webservers']"
+  firewalld: permanent=true rich_rule='rule family="ipv4" source address="{{ hostvars[item.0]['ansible_eth0']['ipv4']['address'] }}/32" port port="{{item.1}}" protocol="tcp" accept' state=enabled
+  with_nested:
+    - "groups['dbservers']"
     - "db_ports"
+  when: item.0 is not none and hostvars[item.0]['ansible_eth0']['ipv4']['address'] != ansible_eth0.ipv4.address
+
+- name: reload firewalld
+  sudo: yes
+  shell: firewall-cmd --reload

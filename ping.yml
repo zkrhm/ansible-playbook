@@ -1,0 +1,5 @@
+- hosts: webservers:dbservers
+  remote_user: root
+  tasks:
+  - name: Ping
+    debug: msg="Ping"

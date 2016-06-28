@@ -1,0 +1,12 @@
+---
+- include: ../../../mongo_common/tasks/repo.yml
+
+- name: Mongod template
+  sudo: yes
+  template: src=mongoc.config.j2 dest=/etc/mongod.conf
+
+- name: install mongodb packages
+  yum: name=mongodb-org state=present update_cache=yes
+
+- name: install mongodb service and run it.
+  service: name=mongod state=started enabled=yes
