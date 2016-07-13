@@ -1,8 +1,8 @@
 ---
-- include: ../../../mongo_common/tasks/repo.yml
+- include: ../mongo_common/tasks/repo.yml
 
 - name: Mongod template
   sudo: yes
   template: src=mongod.config.j2 dest=/etc/mongod.conf
 
-- include: ../../../mongo_common/tasks/install.yml
+- include: ../mongo_common/tasks/install.yml

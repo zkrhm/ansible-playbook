@@ -1,0 +1,15 @@
+---
+- name: create shard files
+  template: src=roles/mongos/templates/addshard.json.j2 dest=/tmp/addshard.json
+  tags:
+    - mongos
+    - addshard
+    - config
+
+- name: Load shards to mongos.
+  sudo: yes
+  shell: mongo < /tmp/addshard.json
+  tags:
+    - mongos
+    - addshard
+    - exec

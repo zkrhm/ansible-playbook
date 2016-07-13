@@ -1,20 +1,88 @@
-- hosts: mongoc
-  remote_user: root
-  roles:
-    - mongodb
-  tasks:
-  tags:
-    - mongo
-    - mongo_control
+---
+# brief introduction : 
+# mongoc : mongo control server
+# mongod : mongo shared server
+# mongos : mongo query server.
+# query passed from mongos to mongoc -> mongod
+# mongoc control sharding information and where data has to be placed on mongod
+# mongos routes query to mongoc servers.
 
+# this is debug.
+#- hosts: mongoc
+#  remote_user: root
+#  tasks:
+#    - name: Debug mongoc servers
+#      debug: msg="Helloo amigos"
+
+#-----mongos to mongoc interconnect
+# {{hostvars[item]['ansible_eth0']['ipv4']['address']}}
+
+- hosts: mongos:mongoc:mongod
+  remote_user: root
+  gather_facts: true
+  tasks:
+    - name: Debug mongos servers
+      debug: msg="Ping from mongos,mongoc, mongod servers ({{ansible_eth0.ipv4.address}})"
+  tags:
+    - mongocluster
+
+#-----------------[mongo cluster firewall]----------------
+
+#----------------- cluster member interconnect-----
+# - hosts: mongoc:mongod:mongos
+#   remote_user: root
+#   tasks:
+#     - name: allow cluster member interconnect.
+#       sudo: yes
+#       firewalld: permanent=true rich_rule='rule family="ipv4" source address="{{ hostvars[item]['ansible_eth1']['ipv4']['address'] }}/32" port port="27017" protocol="tcp" accept' state=enabled
+#       with_items: groups['mongoc']+groups['mongod']+groups['mongos']
+#       when: hostvars[item]['ansible_eth1']['ipv4']['address'] != ansible_eth1.ipv4.address
+
+#     - name: reload firewalld
+#       sudo: yes
+#       command: firewall-cmd --reload
+
+# - hosts: mongoc:mongod:mongos
+#   remote_user: root
+#   tasks:
+#     - name: Mongoc opening request from 
+#       debug: msg="accepting {{hostvars[item]['ansible_hostname']}} on {{ansible_hostname}}"
+#       with_items: groups.mongoc+groups.mongod+groups.mongos
+#       when: hostvars[item]['ansible_eth1']['ipv4']['address'] != ansible_eth1.ipv4.address
+
+#--------------[mongo control server]-------------------
+
+# - hosts: mongoc
+#   remote_user: root
+#   roles:
+#     - mongoc
+#   tasks:
+#   tags:
+#     - mongoc
+
+#------------------[mongo shard]--------------------
 - hosts: mongod
   remote_user: root
+  gather_facts: false
   roles:
-  	- mongodb
-  	- mongo_data
-
-- hosts: mongos
-  remote_user: root
+   - mongod
   tasks:
-  	- mongodb
-  	- mongo_query
+    - include : roles/mongod/tasks/replica_set.yml
+  vars:
+    mongod_replset: pets_rs
+
+#----------------[mongos install]-----------------
+
+# - hosts: mongos
+#   remote_user: root
+#   roles:
+#     - mongos
+#   tasks:
+#     - include: roles/mongos/tasks/add_shard.yml
+
+# - hosts: mongos
+#   remote_user: root
+#   tasks:
+#     - name: Debug on mongos host
+#       sudo: yes
+#       debug: msg="hello from mongos"

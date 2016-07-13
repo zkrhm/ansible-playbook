@@ -1,9 +1,36 @@
 ---
-- include: ../../../mongo_common/tasks/main.yml
+- include: ../mongo_common/tasks/repo.yml
 
 - name: install mongodb packages
-  yum: name=mongodb-org state=present update_cache=yes
+  yum: name={{item}} state=present update_cache=yes
   with_items: 
     - mongodb-org-mongos
     - mongodb-org-shell
     - mongodb-org-tools
+
+- name: Ensures mongo config dir exists
+  file: path=/etc/mongo state=directory
+  tags:
+    - config
+    - mongos
+
+- name: Drop mongos configuration
+  sudo: yes
+  template: src=mongos.conf.j2 dest=/etc/mongo/mongos.conf
+  tags:
+    - config
+    - mongos
+
+- name: drop mongos init script.
+  sudo: yes
+  template: src=mongos.j2 dest=/etc/init.d/mongos mode=0755
+  tags:
+    - initscript
+    - mongos
+
+- name: Enable mongos
+  sudo: yes
+  service: name=mongos state=started enabled=yes
+  tags:
+    - mongos
+    - services

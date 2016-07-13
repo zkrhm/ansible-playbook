@@ -1,0 +1,4 @@
+rs.initiate()
+cfg = rs.conf()
+cfg.members[0].host = "{{ansible_eth1.ipv4.address}}"
+rs.reconfig(cfg)

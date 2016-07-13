@@ -1,0 +1,5 @@
+{% for host in groups['mongod']%}
+	{%if host != groups['mongod'][0] %}
+	rs.add("{{hostvars[host]['ansible_eth1']['ipv4']['address']}}:{{mongod_port}}")
+	{% endif %}
+{% endfor %}

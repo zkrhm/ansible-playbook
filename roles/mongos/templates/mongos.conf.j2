@@ -1,0 +1,9 @@
+systemLog:
+  destination: file
+  logAppend: true
+  path: /var/log/mongodb/mongod.log
+
+net:
+  port: {{mongos_port}}
+sharding:
+  configDB: {{mongoc_replset}}/{% for host in groups['mongoc']%}{{hostvars[host]['ansible_eth1']['ipv4']['address']}}:{{mongos_port}}{% if not loop.last %},{% endif %}{% endfor %}

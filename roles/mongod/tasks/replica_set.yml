@@ -1,0 +1,21 @@
+---
+
+- name: Name for copy module.
+  copy: src=roles/mongod/files/initiate.js dest=/opt/initiate.js
+  when: ansible_eth1.ipv4.address == hostvars[groups['mongod'][0]]['ansible_eth1']['ipv4']['address']
+
+- name: Write Replace replica set main host
+  template: src=roles/mongod/templates/{{item}}.j2 dest=/opt/{{item}}
+  with_items: 
+    - reconf.js
+    - addmember.js
+  when: ansible_eth1.ipv4.address == hostvars[groups['mongod'][0]]['ansible_eth1']['ipv4']['address']
+
+- name: Reconfigure replica set member.
+  sudo: yes
+  command: mongo < /opt/{{item}}
+  with_items: 
+    - initiate.js
+    - reconf.js
+    - addmember.js
+  when: ansible_eth1.ipv4.address == hostvars[groups['mongod'][0]]['ansible_eth1']['ipv4']['address']

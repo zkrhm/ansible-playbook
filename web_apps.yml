@@ -1,0 +1,71 @@
+---
+- hosts: webservers
+  remote_user: root
+  # roles:
+  # - common
+  # - php
+  # - composer
+  # - pip
+  # - supervisor
+  # - nginx
+  # - httpd
+  # - apps
+  tasks:
+    # - name: Install httplib2 on remote machine.
+    #   sudo: yes
+    #   pip: name=httplib2  state=present
+
+
+    # - name: Generate ssh-keygen and cat the public key.
+    #   sudo: yes
+    #   shell: ssh-keygen -t rsa -f ~/.ssh/{{ssh_key}} -N ''
+
+    # - name:  cat the public key.
+    #   sudo: yes
+    #   shell: cat ~/.ssh/{{ssh_key}}.pub
+    #   register: deploy_public_key
+
+    # - name: Get project list.
+    #   sudo: yes
+    #   uri: >
+    #     url=https://gitlab.com/api/v3/projects/owned?search=pets_id-backend
+    #     HEADER_PRIVATE-TOKEN="gqEy-T-d38JRjpviAaMh"
+    #     HEADER_Content-Type="application/json"
+    #   register: project_detail
+
+    # - name: Name for debug module.
+    #   debug: msg="on project {{project_detail.json[0].id}} and hostname {{ansible_hostname}}  , setting  {{deploy_public_key.stdout_lines.0}} "
+
+    # - name: Set deploy key.
+    #   sudo: yes
+    #   uri: >
+    #     url="https://gitlab.com/api/v3/projects/{{project_detail.json[0].id}}/keys/"
+    #     method=POST
+    #     status_code=201
+    #     HEADER_PRIVATE-TOKEN="gqEy-T-d38JRjpviAaMh"
+    #     HEADER_Content-Type="application/json"
+    #     body_type=json
+    #     body=' { "title": "{{ansible_hostname}} deploy key", "key": "{{deploy_public_key.stdout_lines.0}}"} '
+
+    - name: Create ssh config file.
+      template: src=roles/git/templates/config.j2 dest=~/.ssh/config
+
+    # - name: Get the apps
+    #   sudo: yes
+    #   git: dest=/var/www/ repo=git@gitlab.com:ivorycoconut/pets_id-backend.git
+
+    # - name: Name for shell module.
+    #   sudo: yes
+    #   shell: {{item}}
+    #   with_items:
+    #     - "php artisan migrate"
+    #     - "php artisan es:create_index_store"
+    #     - "php artisan es:create_index_item"
+    #     - "php artisan db:seed"
+    #     - "php artisan es:seed"
+
+    # - name: Name for cron module.
+    #   sudo: yes
+    #   cron: state=present job="php /path/to/artisan schedule:run >> /dev/null 2>&1"
+  vars:
+    ssh_key: gitlab

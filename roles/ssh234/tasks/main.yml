@@ -6,8 +6,6 @@
     - firewalld
     - service
 
-
-
 - name: use 234 for firewalld module.
   sudo: yes
   firewalld: permanent={{ item.permanent }} port={{ item.port }}  state=enabled

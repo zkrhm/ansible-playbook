@@ -1,1 +1,4 @@
 mongos_port: 27017
+mongod_port: 27017
+mongoc_replset: ctrl_rs
+mongod_replset: pets_rs

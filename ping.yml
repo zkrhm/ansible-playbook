@@ -1,4 +1,4 @@
-- hosts: webservers:dbservers
+- hosts: all
   remote_user: root
   tasks:
   - name: Ping
